@@ -1,4 +1,7 @@
 
+# Visual Studio files
+.vs/
+
 # Visual Studio build results
 [Bb]in/
 [Oo]bj/
