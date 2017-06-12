@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TableLayout android:layout_width="match_parent" android:layout_height="match_parent" android:stretchColumns="1">
+        <TableRow>
+            <TextView android:padding="3dp" android:layout_column="1" android:text="Open..." />
+            <TextView android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:padding="3dp" android:text="Ctrl-O" />
+        </TableRow>
+        <TableRow>
+            <TextView android:padding="3dp" android:layout_column="1" android:text="Save..." />
+            <TextView android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:padding="3dp" android:text="Ctrl-S" />
+        </TableRow>
+        <TableRow>
+            <TextView android:padding="3dp" android:layout_column="1" android:text="Save As..." />
+            <TextView android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:padding="3dp" android:text="Ctrl-Shift-S" />
+        </TableRow>
+        <View android:background="#ff909090" android:layout_height="UNKNOWN_DATA_0x201" />
+        <TableRow>
+            <TextView android:padding="3dp" android:text="X" />
+            <TextView android:padding="3dp" android:text="Import..." />
+        </TableRow>
+        <TableRow>
+            <TextView android:padding="3dp" android:text="X" />
+            <TextView android:padding="3dp" android:text="Export..." />
+            <TextView android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:padding="3dp" android:text="Ctrl-E" />
+        </TableRow>
+        <View android:background="#ff909090" android:layout_height="UNKNOWN_DATA_0x201" />
+        <TableRow>
+            <TextView android:padding="3dp" android:layout_column="1" android:text="Quit" />
+        </TableRow>
+        <TableRow>
+            <TextView android:id="@id/section_label" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>

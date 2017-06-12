@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="8" android:versionName="1.4" android:installLocation="auto" package="ccnet.pku.edu.cn.ipgw_android" platformBuildVersionCode="23" platformBuildVersionName="6.0-2704002">
+    <uses-sdk android:minSdkVersion="10" android:targetSdkVersion="23" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <application android:theme="@style/AppTheme" android:label="@string/app_name" android:icon="@mipmap/ic_icon" android:allowBackup="true" android:supportsRtl="true">
+        <activity android:theme="@style/AppTheme.NoActionBar" android:label="@string/app_name" android:name="ccnet.pku.edu.cn.ipgw_android.MainActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan|adjustNothing" />
+        <activity android:name="ccnet.pku.edu.cn.ipgw_android.Activity_MsgContent" android:screenOrientation="portrait" />
+        <activity android:name="ccnet.pku.edu.cn.ipgw_android.Activity_Payment" android:screenOrientation="portrait" />
+        <activity android:name="ccnet.pku.edu.cn.ipgw_android.Activity_Conns" android:screenOrientation="portrait" />
+        <activity android:name="ccnet.pku.edu.cn.ipgw_android.Activity_ResetPasswd" android:screenOrientation="portrait" />
+        <activity android:name="ccnet.pku.edu.cn.ipgw_android.Activity_AboutUs" android:screenOrientation="portrait" />
+        <activity android:name="com.alipay.sdk.app.H5PayActivity" android:exported="false" android:screenOrientation="behind" android:configChanges="keyboardHidden|navigation|orientation" />
+        <activity android:name="com.alipay.sdk.auth.AuthActivity" android:exported="false" android:screenOrientation="behind" android:configChanges="keyboardHidden|navigation|orientation" />
+        <activity android:theme="@style/SplashTheme" android:name="ccnet.pku.edu.cn.ipgw_android.SplashActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <receiver android:name="ccnet.pku.edu.cn.ipgw_android.IPGWWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/ipgw_appwidget_info" />
+        </receiver>
+        <activity android:theme="@*android:style/Theme.Translucent" android:name="com.google.android.gms.ads.AdActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+        <activity android:theme="@style/Theme.IAPTheme" android:name="com.google.android.gms.ads.purchase.InAppPurchaseActivity" />
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+    </application>
+</manifest>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.chauthai.swipereveallayout.SwipeRevealLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@id/swipe_layout" app:padding="0dp" app:layout_width="match_parent" app:layout_height="wrap_content" app:dragEdge="2" app:mode="oneLine">
+    <FrameLayout app:id="@id/disconnect_layout" app:background="@color/colorPKURed" app:paddingLeft="@dimen/cell_leftpadding" app:paddingRight="@dimen/cell_rightpadding" app:layout_width="wrap_content" app:layout_height="UNKNOWN_DATA_0x7f0a0052">
+        <TextView app:textColor="0x106000b" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:paddingLeft="@dimen/btndisconnect_leftpadding" app:paddingRight="@dimen/btndisconnect_rightpadding" app:layout_width="wrap_content" app:layout_height="match_parent" app:text="@string/disconnect" style="@*style/TextAppearance.Medium" />
+    </FrameLayout>
+    <FrameLayout app:id="@id/disconnect_top_layout" app:background="@color/white" app:paddingLeft="@dimen/cell_leftpadding" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f0a0052">
+        <TextView app:textColor="@color/black1" app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/conn_title" app:layout_width="match_parent" app:layout_height="wrap_content" style="@*style/TextAppearance.Medium" />
+        <TextView app:textColor="@color/black1" app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/conn_subtitle" app:background="@color/white" app:padding="0dp" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginLeft="5dp" app:text="26/Jan/2014" style="@*style/TextAppearance.Small" />
+    </FrameLayout>
+    <View app:background="@color/black2" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f0a007a" />
+</com.chauthai.swipereveallayout.SwipeRevealLayout>

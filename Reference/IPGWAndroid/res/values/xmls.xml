@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <xml name="ipgw_appwidget_info">res/xml/ipgw_appwidget_info.xml</xml>
+    <xml name="ipgw_appwidget_info">res/xml-v11/ipgw_appwidget_info.xml</xml>
+    <xml name="ipgw_appwidget_info">res/xml-v12/ipgw_appwidget_info.xml</xml>
+    <xml name="ipgw_appwidget_info">res/xml-v17/ipgw_appwidget_info.xml</xml>
+</resources>

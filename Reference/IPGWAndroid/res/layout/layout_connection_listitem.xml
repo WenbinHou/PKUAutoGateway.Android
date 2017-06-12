@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.chauthai.swipereveallayout.SwipeRevealLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:layout_width="match_parent" app:layout_height="match_parent" app:dragEdge="1" app:mode="oneLine">
+    <FrameLayout app:layout_width="wrap_content" app:layout_height="match_parent">
+        <LinearLayout app:orientation="vertical" app:paddingLeft="@dimen/cell_leftpadding" app:paddingTop="10dp" app:paddingRight="@dimen/cell_rightpadding" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f0a0052" app:layout_margin="160dp">
+            <TextView app:textSize="16sp" app:textColor="@color/black1" app:id="@id/conn_title" app:layout_width="match_parent" app:layout_height="wrap_content" app:singleLine="true" />
+            <TextView app:textSize="12sp" app:textColor="@color/black1" app:id="@id/conn_subtitle" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x1a01" app:layout_alignWithParentIfMissing="true" />
+        </LinearLayout>
+    </FrameLayout>
+    <FrameLayout app:layout_width="match_parent" app:layout_height="match_parent">
+        <TextView app:textSize="16sp" app:textColor="@color/black1" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="ddddddd" app:singleLine="true" />
+    </FrameLayout>
+</com.chauthai.swipereveallayout.SwipeRevealLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <animator name="trans_left_in">res/animator/trans_left_in.xml</animator>
+    <animator name="trans_left_out">res/animator/trans_left_out.xml</animator>
+    <animator name="trans_right_in">res/animator/trans_right_in.xml</animator>
+    <animator name="trans_right_out">res/animator/trans_right_out.xml</animator>
+</resources>
